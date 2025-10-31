@@ -1,20 +1,49 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# 🧠 Ammar — AI & Cloud Computing Portfolio
 
-# Run and deploy your AI Studio app
+![Portfolio Preview](https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6)
 
-This contains everything you need to run your app locally.
+Hi, I’m **Ammar 👋**  
+🎓 Student @ Telkom University  
+☁️ AI & Cloud Computing Enthusiast
 
-View your app in AI Studio: https://ai.studio/apps/drive/1JYmvJYbfuKc8m152dC83Dx-zQ1msAKK9
+This is my personal portfolio website — built with **React + TypeScript + Tailwind CSS + Vite**, designed to showcase my projects, skills, and experiences in **Artificial Intelligence**, **Machine Learning**, and **Cloud Infrastructure**.
 
-## Run Locally
+---
 
-**Prerequisites:**  Node.js
+## 🚀 Live Demo
+👉 **[View Portfolio](http://localhost:5173/)** (if running locally)  
+Or deploy it on **Vercel**, **Netlify**, or **GitHub Pages** for a live demo!
 
+---
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## 🛠️ Tech Stack
+- ⚛️ **React** — Component-based UI  
+- 💅 **Tailwind CSS** — Utility-first styling  
+- 🧩 **TypeScript** — Type-safe JavaScript  
+- ⚡ **Vite** — Fast dev server & bundler  
+- ☁️ **Gemini API** — AI-powered content integration  
+
+---
+
+## 📦 Installation
+
+**Prerequisites:**  
+- Node.js (recommended: v20 LTS)  
+- Gemini API key from [Google AI Studio](https://aistudio.google.com/app/apikey)
+
+**Run Locally:**
+```bash
+# Clone the repository
+git clone https://github.com/<your-username>/ammar-ai-cloud-portfolio.git
+
+# Navigate to project folder
+cd ammar-ai-cloud-portfolio
+
+# Install dependencies
+npm install
+
+# Add your API key
+echo GEMINI_API_KEY=your_api_key_here > .env.local
+
+# Run the app
+npm run dev
