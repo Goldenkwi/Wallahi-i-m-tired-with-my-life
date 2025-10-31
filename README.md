@@ -1,6 +1,7 @@
 # 🧠 Ammar — AI & Cloud Computing Portfolio
 
-![Portfolio Preview](https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6)
+![Untitled](https://github.com/user-attachments/assets/5c826242-6db7-482f-910a-f793f8d5ef48)
+
 
 Hi, I’m **Ammar 👋**  
 🎓 Student @ Telkom University  
