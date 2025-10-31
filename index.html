@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- SEO Meta Tags -->
+    <title>Ammar | AI & Cloud Enthusiast</title>
+    <meta name="description" content="Portfolio of Ammar, a 19-year-old student at Telkom University focusing on AI/ML, Java, Python, and Cloud Computing. Explore my projects, skills, and experience." />
+    <meta name="author" content="Ammar" />
+    <meta name="keywords" content="Ammar, AI, Machine Learning, Cloud Computing, Python, Java, Telkom University, Portfolio" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://ammar-portfolio.vercel.app/" />
+    <meta property="og:title" content="Ammar | AI & Cloud Enthusiast" />
+    <meta property="og:description" content="Portfolio of Ammar, a 19-year-old student at Telkom University focusing on AI/ML, Java, Python, and Cloud Computing." />
+    <meta property="og:image" content="https://picsum.photos/seed/ammar-og/1200/630" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://ammar-portfolio.vercel.app/" />
+    <meta property="twitter:title" content="Ammar | AI & Cloud Enthusiast" />
+    <meta property="twitter:description" content="Portfolio of Ammar, a 19-year-old student at Telkom University focusing on AI/ML, Java, Python, and Cloud Computing." />
+    <meta property="twitter:image" content="https://picsum.photos/seed/ammar-og/1200/630" />
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Nunito:wght@800&family=Poppins:wght@600&display=swap" rel="stylesheet">
+    
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              background: '#0F0F10',
+              surface: '#17181B',
+              ink: '#1E293B',
+              accent: '#B7D3C6', // Sage
+              cream: '#FFF7E6',
+              peach: '#F4C7A1',
+            },
+            fontFamily: {
+              'sans': ['Inter', 'sans-serif'],
+              'heading': ['Nunito', 'sans-serif'],
+              'subheading': ['Poppins', 'sans-serif'],
+            },
+            boxShadow: {
+              'ambient': '0 20px 60px rgba(0,0,0,.35)',
+            },
+            borderRadius: {
+              '4xl': '2rem',
+            }
+          }
+        }
+      }
+    </script>
+
+    <!-- JSON-LD for SEO -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Ammar",
+      "url": "https://ammar-portfolio.vercel.app/",
+      "sameAs": [
+        "https://github.com/ammar",
+        "https://linkedin.com/in/ammar"
+      ],
+      "jobTitle": "Student and AI/ML Developer",
+      "worksFor": {
+        "@type": "Organization",
+        "name": "Telkom University"
+      },
+      "knowsAbout": ["Artificial Intelligence", "Machine Learning", "Cloud Computing", "Java", "Python"],
+      "image": "https://picsum.photos/seed/ammar-ld/500/500"
+    }
+    </script>
+
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.548.0"
+  }
+}
+</script>
+</head>
+  <body class="bg-background text-cream/90 font-sans antialiased">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
